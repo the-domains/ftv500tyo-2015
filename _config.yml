@@ -1,28 +1,40 @@
-name: FTV500TYO 2015
 favicon: null
-layout_spectrum: 0.7373119541443884
-typography_spectrum: 0.7963240330573171
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: FTV500TYO 2015
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.631232564104721
+  brandStrength: 0.1859641773626208
+  rhythmicContrast: 0.4543636017479002
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.18596417736262083
-  lightness: 0.24833415960893035
-  saturation: 0.631232564104721
-  rhythmicContrast: 0.45436360174790025
-purpose: []
+  lightness: 0.2483341596089303
+typography_spectrum: 0.7963240330573171
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
